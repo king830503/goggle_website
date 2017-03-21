@@ -1,0 +1,247 @@
+﻿.pstyle-f
+{
+    font-size: 1.5em;
+    font-family: 'Microsoft JhengHei';
+    float: left;
+    width: 80px;
+}
+ .pstyle-i
+{
+    font-size:1.2em; 
+    font-family:'Microsoft JhengHei';
+     float:left;
+     width:200px;   
+}
+.pstyle-b
+{
+     font-size:1.5em; 
+    font-family:'Microsoft JhengHei';
+     float:left;
+     height:50px;
+     width:100px;  
+     padding-left:10px; 
+}
+         body.is-loading * {
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-o-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-o-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+		}
+
+         a:hover {
+			border-bottom-color: transparent;
+		}
+ input[type="text"],
+	select
+	 {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		-appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out;
+		-o-transition: background-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
+		background: none;
+		border-radius: 4px ;
+		border: solid 1px rgba(0,0,0,0.3);
+        background: rgba(224, 224, 224, 0.15);
+		color: inherit;
+		display: block;
+		outline: 0;
+		padding: 0.5em;
+		text-decoration: none;
+		width: 200px;
+		opacity: 1;
+    
+
+        
+    
+	}
+
+	input[type="text"],
+	select {
+		line-height:0.5em;
+	}
+    input[type="text"]:focus,
+		input[type="password"]:focus,
+		input[type="email"]:focus,
+		select:focus,
+		textarea:focus {
+		 
+            background-size:30px;
+            background-position: 6px 6px;
+            background: rgba(255, 255, 255,0);
+			border-color: #83c2bc;
+
+		}
+
+
+	::-webkit-input-placeholder {
+		color: inherit;
+		opacity: 0.5;
+		position: relative;
+		top: 3px;
+	}
+
+	:-moz-placeholder {
+		color: inherit;
+		opacity: 0.5;
+	}
+
+	::-moz-placeholder {
+		color: inherit;
+		opacity: 0.5;
+	}
+
+	:-ms-input-placeholder {
+		color: inherit;
+		opacity: 0.5;
+	}
+
+.formerize-placeholder
+{
+    color: rgba(110, 110, 110, 0.5) !important;
+}
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		-appearance: none;
+		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		-o-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		background: #83c2bc;
+		border-radius: 4px;
+		border: 0;
+		color: white;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 0.9em;
+		font-weight: 700;
+		letter-spacing: 0.125em;
+		line-height: 2.3em;
+		min-width: 5em;
+		padding:0px;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		.button:hover {
+			background:  #C1E0DD;
+		}
+
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		input[type="button"]:active,
+		.button:active {
+			background: #474148;
+		}
+
+		input[type="submit"].alt,
+		input[type="reset"].alt,
+		input[type="button"].alt,
+		.button.alt {
+			background: none;
+			box-shadow: inset 0 0 0 1px rgba(224, 224, 224, 0.75);
+			color: #544d55;
+		}
+
+			input[type="submit"].alt:hover,
+			input[type="reset"].alt:hover,
+			input[type="button"].alt:hover,
+			.button.alt:hover {
+				background: rgba(224, 224, 224, 0.15);
+			}
+
+			input[type="submit"].alt:active,
+			input[type="reset"].alt:active,
+			input[type="button"].alt:active,
+			.button.alt:active {
+				background: rgba(224, 224, 224, 0.35);
+			}
+
+		input[type="submit"].fit,
+		input[type="reset"].fit,
+		input[type="button"].fit,
+		.button.fit {
+			width: 100%;
+		}
+
+		input[type="submit"].small,
+		input[type="reset"].small,
+		input[type="button"].small,
+		.button.small {
+			font-size: 0.9em;
+		}
+        .gvStyle {
+ border: 2px solid #CCC;
+}
+/*Header 標題*/
+.gvStyle th
+{
+    background-color: #E2EAF2;
+    font-weight: lighter;
+    border: 1px solid #ccc;
+    height:25px;
+    text-align:center;
+}
+/*OnMouseOver 滑鼠移過列表時, 背景色變更*/
+.gvStyle tr:hover
+{
+    background-color:#FFF4DA;
+}
+/*Rows 列表顏色*/
+.gvStyle td
+{
+    border: 1px solid #ccc;
+ height:25px;
+ text-align:center;
+}
+/*Change Rows 如果想要有單、雙列不同顏色替換, 在這裡更換*/
+.gvStyle .alt
+{
+    background-color:#efefef;
+    border: 1px solid #ccc;
+ height:25px;
+}
+/*Page 分頁顏色*/
+.gvStyle .pgr table
+{
+    margin:0 auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.gvStyle .pgr td
+{
+    background-color:#E2EAF2;
+    border-width: 0px;
+    padding:0px 3px 0px 3px;
+}
+.gvStyle .pgr a
+{
+    color: #666; text-decoration:underline;
+    padding:0px 3px 0px 3px;
+}
+.gvStyle .pgr a:hover
+{
+    color: #FF0000; text-decoration: none;
+}
